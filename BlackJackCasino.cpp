@@ -247,7 +247,7 @@ int main() {
 	std::array<Cards, 52> deck;							//Объявление карточного массива
 
 	int index = 0;										//Инициализация массива
-	for (int cardShirt = 0; cardShirt < static_cast<int>(CardDeck::max); ++cardShirt) {		//
+	for (int cardShirt = 0; cardShirt < static_cast<int>(CardDeck::max); ++cardShirt) {		// 
 		for (int cardRank = 0; cardRank < static_cast<int>(CardNominal::max); ++cardRank) {		//
 			deck[index].shirt = static_cast<CardDeck>(cardShirt);					//	
 			deck[index].rank = static_cast<CardNominal>(cardRank);					//	
